@@ -1,0 +1,47 @@
+@media (width <=625px) {
+  header .icons-container .icon {
+    font-size: 1.2em;
+  }
+
+  header .nav-container {
+    padding: 0 1rem;
+  }
+
+  header .nav-container .nav__logo {
+    width: 10rem;
+  }
+
+  header .nav-container .nav__profile {
+    font-size: 1em;
+  }
+
+  .home-main {
+    height: calc(100vh - 6.5rem);
+  }
+
+  .home-main .hero .hero__title {
+    font-size: 2em;
+    letter-spacing: 0.5rem;
+  }
+
+  .post-content h1 {
+    font-size: 1.5em;
+  }
+
+  .contact img {
+    display: none;
+  }
+}
+
+@media (width <=410px) {
+  .blogs-news__news-info h2 {
+    font-size: 1.7em;
+  }
+
+  .blogs-posts__posts-grid {
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  }
+  .project__grid {
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  }
+}
